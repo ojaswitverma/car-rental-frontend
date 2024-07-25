@@ -1,0 +1,26 @@
+.app-download {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: 500;
+    font-size: max(3vw, 20px);
+}
+
+.storeimage {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.storeimage:hover {
+    transform: scale(1.05);
+}
+
+.store-image {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .appstore {
+    height: 30px;
+} */

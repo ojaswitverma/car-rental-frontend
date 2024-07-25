@@ -1,0 +1,50 @@
+.explore-fleet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.explore-fleet h1 {}
+
+.explore-fleet-text {}
+
+.explore-fleet-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.explore-fleet-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-fleet-list-item img {
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.explore-fleet-list-item p {
+    margin-top: 10px;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+}
+
+.explore-fleet hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: red;
+    border: none;
+}
+
+.explore-fleet-list-item .active {
+    border: 2px solid black;
+    padding: 2px;
+}

@@ -1,0 +1,118 @@
+.navbar {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.weblogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.weblogo p {
+    font-weight: 500;
+    font-size: 28pt;
+    font-family: "Exo 2", sans-serif;
+}
+
+#search-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navbar button {
+    border: 1px solid crimson;
+    color: white;
+    background: transparent;
+    background-color: crimson;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-menu li {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar button:hover {
+    transform: scale(1.05);
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid crimson;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar-profile {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-profile-dropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+    width: 150px;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(240, 248, 255);
+    padding: 12px 25px;
+    border-radius: 4px;
+    list-style: none;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.navbar-profile-dropdown li {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-profile-dropdown img {
+    width: 20px;
+}
+
+.navbar-profile-dropdown li:hover {
+    color: crimson;
+}
+
+.separator {
+    border-bottom: 1px solid black;
+    width: 120%;
+}

@@ -1,0 +1,50 @@
+.confirm-booking {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm-booking-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.multi-fields {
+    display: flex;
+    gap: 20px;
+}
+
+.confirm-booking input {
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.confirm-booking-right {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    gap: 25px;
+}
+
+.confirm-booking-right button {
+    border: none;
+    padding: 10px;
+    border: 4px;
+    color: white;
+    background-color: crimson;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+
+.confirm-booking-right button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

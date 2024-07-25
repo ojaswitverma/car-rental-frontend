@@ -1,0 +1,51 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    margin-top: 10px;
+    background: url("/header.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-content h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+    font-family: "Roboto", sans-serif;
+}
+
+.header-content p {
+    font-size: 1vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-content button {
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: crimson;
+    border-radius: 50px;
+    font-size: max(1vw, 13px);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header-content button:hover {
+    transform: scale(1.05);
+}

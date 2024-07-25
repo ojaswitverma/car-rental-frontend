@@ -1,0 +1,60 @@
+.car {
+    width: 45vw;
+    height: 30vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(252, 243, 243);
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descimage {
+    height: 20px;
+    width: 20px;
+}
+
+.carimage {
+    width: 200px;
+    height: 125px;
+    border-radius: 4px;
+}
+
+.carinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.carinfoimg {
+    display: flex;
+    gap: 15px;
+}
+
+.booknowbutton button {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    height: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+}
+
+.booknowbutton button:hover {
+    transform: scale(1.05);
+}
+
+.carimagecontainer {
+    object-fit: cover;
+    height: 125px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.price {
+    margin-top: 10px;
+}

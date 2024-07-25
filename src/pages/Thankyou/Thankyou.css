@@ -1,0 +1,35 @@
+.thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.thank-you-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.thank-you-card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+.thank-you-card button {
+    border: none;
+    padding: 10px;
+    border: 4px;
+    color: white;
+    background-color: crimson;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.thank-you-card button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
